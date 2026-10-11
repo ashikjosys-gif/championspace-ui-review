@@ -1,0 +1,103 @@
+Space,Route,Coverage,Roles,Viewport widths,Evidence
+ChampionSpace,/academies,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academies-admin-desktop.png
+ChampionSpace,/academies/:id,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academies-sample-desktop.png
+ChampionSpace,/academy-dashboard,Entry/redirect not separately captured,—,—,
+ChampionSpace,/academy-dashboard/classic,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academy-dashboard-classic-desktop.png
+ChampionSpace,/academy-dashboard/command,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academy-dashboard-command-desktop.png
+ChampionSpace,/academy-hub,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academy-hub-admin-desktop.png
+ChampionSpace,/academy-hub/batches/:batchId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academy-hub-batches-sample-desktop.png
+ChampionSpace,/academy-hub/branches/:branchId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academy-hub-branches-sample-desktop.png
+ChampionSpace,/academy/structure,UI observed; mutation flows not exhaustively tested,academy_admin,1440,screenshots/champion-academy-structure-desktop.png
+ChampionSpace,/academy/structure/groups/:batchId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-academy-structure-groups-sample-desktop.png
+ChampionSpace,/academy/team,UI observed; mutation flows not exhaustively tested,academy_admin,1440,screenshots/champion-academy-team-desktop.png
+ChampionSpace,/accept-invite,Not exercised: no invitation token,—,—,
+ChampionSpace,/analytics,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-analytics-admin-desktop.png
+ChampionSpace,/assessment,UI observed; mutation flows not exhaustively tested,"academy_admin, admin","390, 1440",screenshots/champion-assessment-desktop.png
+ChampionSpace,/assessment/create,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-assessment-create-admin-desktop.png
+ChampionSpace,/assessment/create/review,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-assessment-create-review-desktop.png
+ChampionSpace,/assessment/session/:id,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-assessment-session-sample-desktop.png
+ChampionSpace,/assessment/session/:id/execute,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-assessment-session-sample-execute-desktop.png
+ChampionSpace,/assessment/session/:id/execute/results,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-assessment-session-sample-execute-results-desktop.png
+ChampionSpace,/assessment/session/:id/execute/test/:code,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-assessment-session-sample-execute-test-DSQUAT-desktop.png
+ChampionSpace,/athlete-progress,UI observed; mutation flows not exhaustively tested,parent,"390, 1440",screenshots/champion-parent-home-1440.png
+ChampionSpace,/athletes,UI observed; mutation flows not exhaustively tested,"academy_admin, coach","390, 1440",screenshots/champion-athletes-desktop.png
+ChampionSpace,/athletes/:id,UI observed; mutation flows not exhaustively tested,"admin, coach","390, 1440",screenshots/champion-athletes-sample-desktop.png
+ChampionSpace,/athletes/:id/edit,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-sample-edit-desktop.png
+ChampionSpace,/athletes/:id/journey,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-sample-journey-desktop.png
+ChampionSpace,/athletes/:id/passport,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-sample-passport-desktop.png
+ChampionSpace,/athletes/:id/plan,UI observed; mutation flows not exhaustively tested,"admin, coach","390, 1440",screenshots/champion-athletes-sample-plan-desktop.png
+ChampionSpace,/athletes/:id/report,UI observed; mutation flows not exhaustively tested,"admin, coach","390, 1440",screenshots/champion-athletes-sample-report-desktop.png
+ChampionSpace,/athletes/:id/report/pdf,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-sample-report-pdf-desktop.png
+ChampionSpace,/athletes/:id/report/saved/:snapshotId,Not exercised: no saved snapshot selected,—,—,
+ChampionSpace,/athletes/:id/timeline,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-sample-timeline-desktop.png
+ChampionSpace,/athletes/:id/video/:clipId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-sample-video-sample-desktop.png
+ChampionSpace,/athletes/new,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-athletes-new-desktop.png
+ChampionSpace,/coach,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-coach-admin-desktop.png
+ChampionSpace,/coach-dashboard,UI observed; mutation flows not exhaustively tested,coach,"390, 1440",screenshots/champion-coach-dashboard-coach-desktop.png
+ChampionSpace,/coach-dashboard/classic,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-coach-dashboard-classic-desktop.png
+ChampionSpace,/coach-dashboard/squad,UI observed; mutation flows not exhaustively tested,coach,1440,screenshots/champion-coach-dashboard-squad-coach-desktop.png
+ChampionSpace,/coach-hub,UI observed; mutation flows not exhaustively tested,"admin, coach","390, 1440",screenshots/champion-coach-hub-admin-desktop.png
+ChampionSpace,/coach-workspace,UI observed; mutation flows not exhaustively tested,"academy_admin, admin, coach","390, 1440",screenshots/champion-coach-workspace-desktop.png
+ChampionSpace,/compare,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-compare-admin-desktop.png
+ChampionSpace,/competitions,UI observed; mutation flows not exhaustively tested,academy_admin,1440,screenshots/champion-competitions-desktop.png
+ChampionSpace,/competitions/:competitionId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-competitions-sample-desktop.png
+ChampionSpace,/competitions/:competitionId/athletes/:athleteId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-competitions-sample-athletes-sample-desktop.png
+ChampionSpace,/competitions/matches/:matchId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-competitions-matches-sample-desktop.png
+ChampionSpace,/dashboard,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-dashboard-admin-desktop.png
+ChampionSpace,/design-system,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-design-system-desktop.png
+ChampionSpace,/framework,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-framework-admin-desktop.png
+ChampionSpace,/goals,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-goals-admin-desktop.png
+ChampionSpace,/lab,UI observed; mutation flows not exhaustively tested,"admin, analyst","390, 1440",screenshots/champion-lab-admin-desktop.png
+ChampionSpace,/login,Sign-in exercised; initial screenshot outside indexed gallery,—,—,
+ChampionSpace,/my-performance,UI observed; mutation flows not exhaustively tested,athlete,"390, 1440",screenshots/champion-athlete-home-1440.png
+ChampionSpace,/protocols,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-protocols-admin-desktop.png
+ChampionSpace,/protocols/:code,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-protocols-HEXAG-desktop.png
+ChampionSpace,/reports,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-reports-admin-desktop.png
+ChampionSpace,/reports/session/:id,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-reports-session-sample-desktop.png
+ChampionSpace,/research,UI observed; mutation flows not exhaustively tested,"admin, researcher","390, 1440",screenshots/champion-research-admin-desktop.png
+ChampionSpace,/research/benchmarks,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-research-benchmarks-admin-desktop.png
+ChampionSpace,/research/tests/:code,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-research-tests-HEXAG-desktop.png
+ChampionSpace,/settings,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-settings-admin-desktop.png
+ChampionSpace,/training,UI observed; mutation flows not exhaustively tested,academy_admin,1440,screenshots/champion-training-desktop.png
+ChampionSpace,/training/calendar,UI observed; mutation flows not exhaustively tested,"admin, coach","390, 1440",screenshots/champion-training-calendar-desktop.png
+ChampionSpace,/training/planner,UI observed; mutation flows not exhaustively tested,"admin, coach","390, 1440",screenshots/champion-training-planner-desktop.png
+ChampionSpace,/training/planning,UI observed; mutation flows not exhaustively tested,"academy_admin, coach",1440,screenshots/champion-training-planning-desktop.png
+ChampionSpace,/training/sessions/:sessionId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-training-sessions-sample-desktop.png
+ChampionSpace,/video-analysis,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-video-analysis-admin-desktop.png
+ChampionSpace,/video-analysis/:clipId,UI observed; mutation flows not exhaustively tested,admin,"390, 1440",screenshots/champion-video-analysis-sample-desktop.png
+TournamentSpace,/,UI observed; see environment limits,"admin, spectator",390,screenshots/tournament-public-overview-mobile-confirmed.png
+TournamentSpace,/activity,UI observed; see environment limits,admin,"390, 1440",screenshots/tournament-empty-activity-desktop.png
+TournamentSpace,/fixtures,UI observed; see environment limits,"admin, referee, spectator","390, 1440",screenshots/tournament-public-fixtures-desktop.png
+TournamentSpace,/fun-events,UI observed; see environment limits,"admin, spectator","390, 1440",screenshots/tournament-public-fun-events-desktop.png
+TournamentSpace,/live,UI observed; see environment limits,"admin, spectator","390, 1440",screenshots/tournament-public-live-desktop.png
+TournamentSpace,/overview,UI observed; see environment limits,"admin, spectator","390, 1440",screenshots/tournament-public-overview-mobile.png
+TournamentSpace,/players,UI observed; see environment limits,admin,"390, 1440",screenshots/tournament-empty-players-desktop.png
+TournamentSpace,/referee,UI observed; see environment limits,"admin, referee","390, 1440",screenshots/tournament-empty-referee-desktop.png
+TournamentSpace,/scoring,UI observed; see environment limits,admin,"390, 1440",screenshots/tournament-empty-scoring-desktop.png
+Public website,/,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-home-desktop.png
+Public website,/about,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-about-desktop.png
+Public website,/contact,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-contact-desktop.png
+Public website,/faq,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-faq-desktop.png
+Public website,/for-you,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-desktop.png
+Public website,/for-you/academies,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-academies-desktop.png
+Public website,/for-you/analysts,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-analysts-desktop.png
+Public website,/for-you/athletes,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-athletes-desktop.png
+Public website,/for-you/coaches,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-coaches-desktop.png
+Public website,/for-you/parents,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-parents-desktop.png
+Public website,/for-you/sports-scientists,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-for-you-sports-scientists-desktop.png
+Public website,/how-it-works,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-how-it-works-desktop.png
+Public website,/platform,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-desktop.png
+Public website,/platform/academy-management,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-academy-management-desktop.png
+Public website,/platform/analytics-reports,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-analytics-reports-desktop.png
+Public website,/platform/assessments,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-assessments-desktop.png
+Public website,/platform/athlete-progress,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-athlete-progress-desktop.png
+Public website,/platform/coaching,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-coaching-desktop.png
+Public website,/platform/competition,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-competition-desktop.png
+Public website,/platform/smash-lab,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-smash-lab-desktop.png
+Public website,/platform/training,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-platform-training-desktop.png
+Public website,/privacy,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-privacy-desktop.png
+Public website,/terms,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-terms-desktop.png
+Public website,/tournaments,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-tournaments-desktop.png
+Public website,/tournaments/fun-events,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-tournaments-fun-events-desktop.png
+Public website,/tournaments/live-scoring,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-tournaments-live-scoring-desktop.png
+Public website,/tournaments/registration-draws,UI observed; see environment limits,visitor,"390, 1440",screenshots/website-tournaments-registration-draws-desktop.png
